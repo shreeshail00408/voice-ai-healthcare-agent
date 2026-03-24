@@ -1,0 +1,14 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+websockets==11.0.3
+redis==4.5.5
+# psycopg2-binary removed for dev on newer Pythons; add Postgres driver in production
+sqlalchemy==2.0.18
+alembic==1.11.1
+pydantic==1.10.11
+langchain==0.0.291
+openai==1.4.0
+celery==5.3.1
+python-dotenv==1.0.0
+requests==2.31.0
+databases==0.6.2

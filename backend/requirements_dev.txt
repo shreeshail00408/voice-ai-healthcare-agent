@@ -1,0 +1,10 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+websockets==11.0.3
+redis==4.5.5
+sqlalchemy==2.0.18
+pydantic==1.10.11
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Optional: add langchain, openai, celery in production or when toolchain supports building heavy packages
